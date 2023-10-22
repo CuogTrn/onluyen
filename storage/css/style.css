@@ -1,0 +1,81 @@
+#container{
+    
+}
+#background-container{
+    
+}
+.background-container--img{
+    position: relative;
+    padding-top: 25%;
+    background: url('/storage/img/wallpaperflare.com_wallpaper1.jpg') center / cover no-repeat;
+    background-size: 100% 800px;
+}
+.background-container--img-text{
+    position: absolute;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.background-container--img-text--heading{
+    font-size: 100px;
+}
+.background-container--img-text--subheading{
+    font-size: 40px;
+}
+
+#level-choose-container{
+
+}
+
+.level-choose-container-text{
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.level-choose-container-text--heading{
+    margin: 10px 0 10px 0;
+}
+
+#level-choose-container-box{
+    margin:  20px 0 20px 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.level-choose-container-box-1{
+
+}
+
+.level-choose-container-box-img{
+    position: relative;
+    
+}
+
+.level-choose-container-box-img-1{
+    width: 280px;
+    height: 337px;
+    border-radius: 50px;
+}
+
+.level--choose-container-box-text{
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -150%);
+    text-align: center;
+    color: white;
+    text-shadow: 0 5px 4px black;
+    width: 100%;
+    
+}
+
+.level-choose-container-box-text--heading{
+
+}
+
+.level-choose-container-box-text--des{
+    
+}
