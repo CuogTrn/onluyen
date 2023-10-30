@@ -7,7 +7,7 @@
 .background-container--img{
     position: relative;
     padding-top: 25%;
-    background: url('storage/img/wallpaperflare.com_wallpaper13.png') center / cover no-repeat;
+    background: url('/storage/img/wallpaperflare.com_wallpaper13.png') center / cover no-repeat;
     background-size: 100% 800px;
 }
 .background-container--img-text{
@@ -26,6 +26,57 @@
     font-size: 40px;
 }
 
+#subject-choose-container{
+
+}
+.subject-choose-container-box{
+    display: flex;
+    justify-content: space-around;
+}
+
+.subject-choose-container-box-1{
+    position: relative;
+    width: 300px;
+    height: 400px;
+    background-color: white;
+    box-shadow: 0px 3px 10px #ccc;
+    border-radius: 5%;
+    
+}
+
+/* .subject-choose-container-box-1 > a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    
+} */
+
+/* .subject-choose-container-box-1 > a > button{
+    height: 25px;
+} */
+
+.subject-choose-container-box-1-img{
+
+    margin-top: 25px;
+    width: 200px;
+    height: 200px;
+    transform: translateX(25%);
+    left: 50%;
+}
+
+
+.subject-choose-container-box-1-img-button{
+    background-color: #ccc;
+    border: none;
+    border-radius: 2px;
+    width: 50%;
+    height: 25px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
 #level-choose-container{
 
 }
@@ -39,7 +90,7 @@
     margin: 10px 0 10px 0;
 }
 
-#level-choose-container-box{
+/* #level-choose-container-box{
     margin:  20px 0 20px 0;
     display: flex;
     justify-content: space-around;
@@ -78,4 +129,4 @@
 
 .level-choose-container-box-text--des{
     
-}
+} */
