@@ -63,13 +63,13 @@
     left: 50%;
 }
 
-.subject-choose-container-box-1-img:hover{
+/* .subject-choose-container-box-1-img:hover{
     display: none;
-}
+} */
 
-.subject-choose-container-box-1-img-2:hover{
+/* .subject-choose-container-box-1-img-2:hover{
     display: block;
-}
+} */
 
 .subject-choose-container-box-1-img-button{
     border: 2px solid #e8cac9;
