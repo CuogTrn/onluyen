@@ -7,7 +7,7 @@
 .background-container--img{
     position: relative;
     padding-top: 25%;
-    background: url('/storage/img/wallpaperflare.com_wallpaper13.png') center / cover no-repeat;
+    background: url('storage/img/wallpaperflare.com_wallpaper13.png') center / cover no-repeat;
     background-size: 100% 800px;
 }
 .background-container--img-text{
