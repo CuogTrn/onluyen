@@ -6,8 +6,8 @@
     <title>Trắc nghiệm vui</title>
     <link rel="stylesheet" href="./storage/css/main.css">
     <link rel="stylesheet" href="./storage/css/style.css">
-    <link rel="stylesheet" href="./storage/css/tinhoc.css">
-    <script src="/storage/javascript/main.js"></script>
+    <link rel="stylesheet" href="/storage/css/tinhoc.css">
+    <script src="/storage/javascript/tinhoc.js"></script>
 </head>
 <body>
     <header>
@@ -47,7 +47,9 @@
     <div id="container">
         <div class="quiz-container">
             <h1 class="quiz-container-heading">Bài trắc nghiệm 15 phút môn Tin Học</h1>
-            <form id="quiz-form">
+
+            <!-- Start form 1 -->
+            <form id="quiz-form1" onsubmit="return kiemTraDapAn(1)">
                 <div class="quiz-form-question">
                     <p class="quiz-form-question-paragrapth">1. Máy tính là thành phần nào trong mạng máy tính</p>
                     <label class="quiz-form-question-label">
@@ -60,113 +62,43 @@
                         <input type="radio" name="q1" value="c"> <strong>C.</strong> Môi trường truyền dẫn
                     </label>
                     <label class="quiz-form-question-label">
-                        <input type="radio" name="q1" value="c"> <strong>D.</strong> Thiết bị chuyển mạch
+                        <input type="radio" name="q1" value="d"> <strong>D.</strong> Thiết bị chuyển mạch
                     </label>
                 </div>
-
-                
-                <input type="submit" value="Kiểm tra kết quả">
-                <div class="quiz-form-question-answer">
+        
+                <input class="submitbutton" type="submit" value="Kiểm tra kết quả">
+                <div class="quiz-form-question-answer" id="ketQua1">
                     <p>Đáp án đúng là: A</p>
                     <p>Các thiết bị đầu cuối như máy tính, máy in, ... kết nối với nhau tạo thành mạng</p>
                 </div>
             </form>
+            <!-- End form 1 -->
 
-            <form id="quiz-form">
+            <!-- Start form 2 -->
+            <form id="quiz-form2" onsubmit="return kiemTraDapAn(2)">
                 <div class="quiz-form-question">
-                    <p class="quiz-form-question-paragrapth">1. Máy tính là thành phần nào trong mạng máy tính</p>
+                    <p class="quiz-form-question-paragrapth">2. Máy tính là thành phần nào trong mạng máy tính</p>
                     <label class="quiz-form-question-label">
-                        <input type="radio" name="q1" value="a"> <strong>A.</strong> Hyper Text Markup Language
+                        <input type="radio" name="q2" value="a"> <strong>A.</strong> Thiết bị đầu cuối
                     </label>
                     <label class="quiz-form-question-label">
-                        <input type="radio" name="q1" value="b"> <strong>B.</strong> Hyperlink and Text Markup Language
+                        <input type="radio" name="q2" value="b"> <strong>B.</strong> Các thiết bị kết nối mạng
                     </label>
                     <label class="quiz-form-question-label">
-                        <input type="radio" name="q1" value="c"> <strong>C.</strong> Home Tool Markup Language
+                        <input type="radio" name="q2" value="c"> <strong>C.</strong> Môi trường truyền dẫn
                     </label>
                     <label class="quiz-form-question-label">
-                        <input type="radio" name="q1" value="c"> <strong>D.</strong> Home Tool Markup Language
+                        <input type="radio" name="q2" value="d"> <strong>D.</strong> Thiết bị chuyển mạch
                     </label>
                 </div>
-                <input type="submit" value="Kiểm tra kết quả">
-            </form>
-
-            <form id="quiz-form">
-                <div class="quiz-form-question">
-                    <p class="quiz-form-question-paragrapth">1. Máy tính là thành phần nào trong mạng máy tính</p>
-                    <label class="quiz-form-question-label">
-                        <input type="radio" name="q1" value="a"> <strong>A.</strong> Hyper Text Markup Language
-                    </label>
-                    <label class="quiz-form-question-label">
-                        <input type="radio" name="q1" value="b"> <strong>B.</strong> Hyperlink and Text Markup Language
-                    </label>
-                    <label class="quiz-form-question-label">
-                        <input type="radio" name="q1" value="c"> <strong>C.</strong> Home Tool Markup Language
-                    </label>
-                    <label class="quiz-form-question-label">
-                        <input type="radio" name="q1" value="c"> <strong>D.</strong> Home Tool Markup Language
-                    </label>
+        
+                <input class="submitbutton" type="submit" value="Kiểm tra kết quả">
+                <div class="quiz-form-question-answer" id="ketQua2">
+                    <p>Đáp án đúng là: B</p>
+                    <p>Các thiết bị đầu cuối như máy tính, máy in, ... kết nối với nhau tạo thành mạng</p>
                 </div>
-                <input type="submit" value="Kiểm tra kết quả">
             </form>
-
-            <form id="quiz-form">
-                <div class="quiz-form-question">
-                    <p class="quiz-form-question-paragrapth">1. Máy tính là thành phần nào trong mạng máy tính</p>
-                    <label class="quiz-form-question-label">
-                        <input type="radio" name="q1" value="a"> <strong>A.</strong> Hyper Text Markup Language
-                    </label>
-                    <label class="quiz-form-question-label">
-                        <input type="radio" name="q1" value="b"> <strong>B.</strong> Hyperlink and Text Markup Language
-                    </label>
-                    <label class="quiz-form-question-label">
-                        <input type="radio" name="q1" value="c"> <strong>C.</strong> Home Tool Markup Language
-                    </label>
-                    <label class="quiz-form-question-label">
-                        <input type="radio" name="q1" value="c"> <strong>D.</strong> Home Tool Markup Language
-                    </label>
-                </div>
-                <input type="submit" value="Kiểm tra kết quả">
-            </form>
-
-            <form id="quiz-form">
-                <div class="quiz-form-question">
-                    <p class="quiz-form-question-paragrapth">1. Máy tính là thành phần nào trong mạng máy tính</p>
-                    <label class="quiz-form-question-label">
-                        <input type="radio" name="q1" value="a"> <strong>A.</strong> Hyper Text Markup Language
-                    </label>
-                    <label class="quiz-form-question-label">
-                        <input type="radio" name="q1" value="b"> <strong>B.</strong> Hyperlink and Text Markup Language
-                    </label>
-                    <label class="quiz-form-question-label">
-                        <input type="radio" name="q1" value="c"> <strong>C.</strong> Home Tool Markup Language
-                    </label>
-                    <label class="quiz-form-question-label">
-                        <input type="radio" name="q1" value="c"> <strong>D.</strong> Home Tool Markup Language
-                    </label>
-                </div>
-                <input type="submit" value="Kiểm tra kết quả">
-            </form>
-
-            <form id="quiz-form">
-                <div class="quiz-form-question">
-                    <p class="quiz-form-question-paragrapth">1. Máy tính là thành phần nào trong mạng máy tính</p>
-                    <label class="quiz-form-question-label">
-                        <input type="radio" name="q1" value="a"> <strong>A.</strong> Hyper Text Markup Language
-                    </label>
-                    <label class="quiz-form-question-label">
-                        <input type="radio" name="q1" value="b"> <strong>B.</strong> Hyperlink and Text Markup Language
-                    </label>
-                    <label class="quiz-form-question-label">
-                        <input type="radio" name="q1" value="c"> <strong>C.</strong> Home Tool Markup Language
-                    </label>
-                    <label class="quiz-form-question-label">
-                        <input type="radio" name="q1" value="c"> <strong>D.</strong> Home Tool Markup Language
-                    </label>
-                </div>
-                <button class="submitbutton">Kiểm tra kết quả</button>
-            </form>
-            
+            <!-- End form 2 -->
         </div>
     </div>
 
