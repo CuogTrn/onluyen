@@ -71,40 +71,6 @@ header{
 
 }
 
-#sidebar{
-    height: 100%;
-    width: 250px;
-    background-color: black;
-    margin-top: 50px;
-}
-
-.sidebar-container{
-}
-
-.sidebar-container-text{
-    padding: 25px 0 5px 0;
-    text-align: center;
-}
-
-.sidebar-container-text-heading{
-    color: white;
-}
-
-.sidebar-container-list{
-
-}
-
-ul > li{
-    padding: 20px;
-    text-transform: uppercase;
-    list-style-type: none;
-}
-
-li > a{
-    text-decoration: none;
-    color: white;
-}
-
 footer{
     width: 100%;
     height: 100px;
