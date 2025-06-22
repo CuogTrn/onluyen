@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+body {
+    font-size: 1.6rem;
+    font-family: "Roboto", sans-serif;
+}
+
+/* Common */
+.main-content {
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: calc(100% - 48px);
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    height: 50px;
+    box-shadow: 0px 20px 15px -11px rgba(0, 0, 0, 0.1);
+}
+
+.header .body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .body img {
+    width: 50px;
+    height: 50px;
+}
+
+.header .list {
+    display: flex;
+}
+
+.header .list a {
+    padding: 8px 16px;
+    font-size: 1.8rem;
+    color: #000;
+    font-weight: 600;
+}
